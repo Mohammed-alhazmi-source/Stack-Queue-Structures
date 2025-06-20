@@ -88,8 +88,8 @@
 
 ## صور من النظام
 
-### الشاشة الرئيسية
-![الشاشة الرئيسية](screenshots/MainMenu.pin)
+### 📌 الشاشة الرئيسية
+![MainMenu](screenshots/MainMenu.png)
 
 ### 📌 تنفيذات المكدس: الأنواع والتطبيقات العملية
 ![Stack Operations](screenshots/stacks.png)
@@ -98,7 +98,7 @@
 ![Queue Operations](screenshots/queues.png)
 
 ### 📌 محاكاة إدارة مستشفى للحالات الطارئة: دمج الطابور والمكدسات
-![[Hospital Emergency System](screenshots/PatientCaseManagementSystemUsingStackAndQueueMainMenu.png)
+![Hospital Emergency System](screenshots/PatientCaseManagementSystemUsingStackAndQueueMainMenu.png)
 
 ---
 
