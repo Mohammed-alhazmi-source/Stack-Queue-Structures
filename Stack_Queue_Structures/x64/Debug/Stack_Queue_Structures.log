@@ -1,4 +1,0 @@
-﻿  Stack_Queue_Structures.cpp
-E:\IT\CourseTwelve\4\QueueDS\Stack_Queue_Structures_Lib\clsReturnPatientCaseType.h(18): warning C4715: 'clsReturnPatientCaseType::TextPatientCaseType': not all control paths return a value
-E:\IT\CourseTwelve\4\QueueDS\Stack_Queue_Structures_Lib\clsEvaluatePostfixExpression.h(35): warning C4715: 'clsEvaluatePostfixExpression::CalculatorOperations': not all control paths return a value
-  Stack_Queue_Structures.vcxproj -> E:\IT\CourseTwelve\4\Stack_Queue_Structures\x64\Debug\Stack_Queue_Structures.exe
