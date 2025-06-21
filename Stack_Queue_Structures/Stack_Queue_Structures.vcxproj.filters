@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Core">
+      <UniqueIdentifier>{e948982a-762e-40bc-a962-6ad2a8d4d891}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Stack">
+      <UniqueIdentifier>{bfa42813-00f9-4c76-b751-244d10086eae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Queue">
+      <UniqueIdentifier>{c2181b9e-5064-4dc9-a48f-543fcf8e8217}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\PatientCaseManagementSystemUsingStackAndQueue">
+      <UniqueIdentifier>{ffdcd512-c05f-45d6-a4ff-933c60d9e204}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Queue\Core">
+      <UniqueIdentifier>{ce74f363-a36d-4a5f-93bb-0d153fc9903f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Queue\Exercises">
+      <UniqueIdentifier>{77723608-8500-4552-b048-4cefaa5a69c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Stack\Core">
+      <UniqueIdentifier>{5bd64b0b-5d34-4eb8-8273-5674db7aa0ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Stack\Exercises">
+      <UniqueIdentifier>{3516f490-0403-424a-8f9e-6c192700f35b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\PatientCaseManagementSystemUsingStackAndQueue\Core">
+      <UniqueIdentifier>{944147e1-98ab-4ecd-8c71-e994745c92c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screens">
+      <UniqueIdentifier>{3460be8b-f0fa-409f-af14-df774c13514f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screens\Stack">
+      <UniqueIdentifier>{960b4af4-5aa5-4011-997b-98a362b7e3e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screens\Queue">
+      <UniqueIdentifier>{86931f6c-c253-4692-852b-2c3abce3455c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screens\PatientCaseManagementSystemUsingStackAndQueueScreens">
+      <UniqueIdentifier>{0aa41bc8-15c4-4713-8acf-88953f726adc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screens\GeneralOperationsScreen">
+      <UniqueIdentifier>{f0d0b376-5940-46dd-9d4a-120f6cae8bce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Lib">
+      <UniqueIdentifier>{6c4e55c2-dea8-4feb-a7cc-03248c2c5467}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Stack_Queue_Structures.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\clsMainScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\clsScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\Global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\ILinearStructure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\Node.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\SmartQueue.h">
+      <Filter>Header Files\Core\Queue\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\QueueErrors.h">
+      <Filter>Header Files\Core\Queue\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\QueueUsingArray.h">
+      <Filter>Header Files\Core\Queue\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\QueueUsingLinkedList.h">
+      <Filter>Header Files\Core\Queue\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\clsExercisePrinterQueue.h">
+      <Filter>Header Files\Core\Queue\Exercises</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\SmartStack.h">
+      <Filter>Header Files\Core\Stack\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\StackErrors.h">
+      <Filter>Header Files\Core\Stack\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\StackUsingArray.h">
+      <Filter>Header Files\Core\Stack\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\StackUsingLinkedList.h">
+      <Filter>Header Files\Core\Stack\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\clsUndoAndRedo.h">
+      <Filter>Header Files\Core\Stack\Exercises</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\clsEvaluatePostfixExpression.h">
+      <Filter>Header Files\Core\Stack\Exercises</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\clsConvertFromInfixToPostfix.h">
+      <Filter>Header Files\Core\Stack\Exercises</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\clsBalancedParentheses.h">
+      <Filter>Header Files\Core\Stack\Exercises</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\clsAddPatientsCases.h">
+      <Filter>Header Files\Core\PatientCaseManagementSystemUsingStackAndQueue\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\clsMoveFromQueueGeneral.h">
+      <Filter>Header Files\Core\PatientCaseManagementSystemUsingStackAndQueue\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\clsMoveFromStackHight.h">
+      <Filter>Header Files\Core\PatientCaseManagementSystemUsingStackAndQueue\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\clsMoveFromStackMedium.h">
+      <Filter>Header Files\Core\PatientCaseManagementSystemUsingStackAndQueue\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\clsMoveFromStackSimple.h">
+      <Filter>Header Files\Core\PatientCaseManagementSystemUsingStackAndQueue\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\clsMovePatient.h">
+      <Filter>Header Files\Core\PatientCaseManagementSystemUsingStackAndQueue\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\clsPatientExitHandler.h">
+      <Filter>Header Files\Core\PatientCaseManagementSystemUsingStackAndQueue\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\clsRebuildDataStructure.h">
+      <Filter>Header Files\Core\PatientCaseManagementSystemUsingStackAndQueue\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\clsReturnPatientCaseType.h">
+      <Filter>Header Files\Core\PatientCaseManagementSystemUsingStackAndQueue\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\clsUpdatePatientsCases.h">
+      <Filter>Header Files\Core\PatientCaseManagementSystemUsingStackAndQueue\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\clsSearchPatientsCases.h">
+      <Filter>Header Files\Core\PatientCaseManagementSystemUsingStackAndQueue\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\clsAddPatientCaseScreen.h">
+      <Filter>Header Files\Screens\PatientCaseManagementSystemUsingStackAndQueueScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\clsExerciseBalancedParenthesesScreen.h">
+      <Filter>Header Files\Screens\Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\clsExerciseConvertExpressionFromInfixToPostfixScreen.h">
+      <Filter>Header Files\Screens\Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\clsExerciseEvaluatePostfixExpressionScreen.h">
+      <Filter>Header Files\Screens\Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\clsExercisePrinterQueueScreen.h">
+      <Filter>Header Files\Screens\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\clsExercisesQueueScreen.h">
+      <Filter>Header Files\Screens\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\clsExercisesStackScreen.h">
+      <Filter>Header Files\Screens\Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\clsExerciseUndoAndRedoScreen.h">
+      <Filter>Header Files\Screens\Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\clsManagingPatientsScreen.h">
+      <Filter>Header Files\Screens\PatientCaseManagementSystemUsingStackAndQueueScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\clsQueueScreen.h">
+      <Filter>Header Files\Screens\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\clsQueueUsingDynamicArrayScreen.h">
+      <Filter>Header Files\Screens\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\clsQueueUsingLinkedListScreen.h">
+      <Filter>Header Files\Screens\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\clsQueueUsingSmartQueueScreen.h">
+      <Filter>Header Files\Screens\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\clsShowDeletePatientCaseScreen.h">
+      <Filter>Header Files\Screens\PatientCaseManagementSystemUsingStackAndQueueScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\clsShowGeneralPatientsCasesScreen.h">
+      <Filter>Header Files\Screens\PatientCaseManagementSystemUsingStackAndQueueScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\clsShowHightPatientCasesScreen.h">
+      <Filter>Header Files\Screens\PatientCaseManagementSystemUsingStackAndQueueScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\clsShowMediumPatientCasesScreen.h">
+      <Filter>Header Files\Screens\PatientCaseManagementSystemUsingStackAndQueueScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\clsShowPatientsCasesScreen.h">
+      <Filter>Header Files\Screens\PatientCaseManagementSystemUsingStackAndQueueScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\clsShowProcessPatientsCasesScreen.h">
+      <Filter>Header Files\Screens\PatientCaseManagementSystemUsingStackAndQueueScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\clsShowSimplePatientsCasesScreen.h">
+      <Filter>Header Files\Screens\PatientCaseManagementSystemUsingStackAndQueueScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\clsStackUsingDynamicArrayScreen.h">
+      <Filter>Header Files\Screens\Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\clsStackScreen.h">
+      <Filter>Header Files\Screens\Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\clsStackUsingLinkedListScreen.h">
+      <Filter>Header Files\Screens\Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\clsStackUsingSmartStackScreen.h">
+      <Filter>Header Files\Screens\Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\clsUpdatePatientCaseScreen.h">
+      <Filter>Header Files\Screens\PatientCaseManagementSystemUsingStackAndQueueScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\clsPrintPatientsCases.h">
+      <Filter>Header Files\Screens\PatientCaseManagementSystemUsingStackAndQueueScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\ContantPatients.h">
+      <Filter>Header Files\Core\PatientCaseManagementSystemUsingStackAndQueue\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\ConstantsCases.h">
+      <Filter>Header Files\Core\PatientCaseManagementSystemUsingStackAndQueue\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\clsPopScreen.h">
+      <Filter>Header Files\Screens\GeneralOperationsScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\clsDisplayScreen.h">
+      <Filter>Header Files\Screens\GeneralOperationsScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\clsClearScreen.h">
+      <Filter>Header Files\Screens\GeneralOperationsScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\clsPushDirectScreen.h">
+      <Filter>Header Files\Screens\GeneralOperationsScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\clsPushScreen.h">
+      <Filter>Header Files\Screens\GeneralOperationsScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\clsSearchScreen.h">
+      <Filter>Header Files\Screens\GeneralOperationsScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\clsDate.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\clsInputValidate.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\clsUtil.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\QueueDS\Stack_Queue_Structures_Lib\clsValidateData.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

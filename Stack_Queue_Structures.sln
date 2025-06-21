@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Stack_Queue_Structures", "Stack_Queue_Structures\Stack_Queue_Structures.vcxproj", "{29CFD7CC-1E79-4ABA-B99F-0E199FA19A63}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29CFD7CC-1E79-4ABA-B99F-0E199FA19A63}.Debug|x64.ActiveCfg = Debug|x64
+		{29CFD7CC-1E79-4ABA-B99F-0E199FA19A63}.Debug|x64.Build.0 = Debug|x64
+		{29CFD7CC-1E79-4ABA-B99F-0E199FA19A63}.Debug|x86.ActiveCfg = Debug|Win32
+		{29CFD7CC-1E79-4ABA-B99F-0E199FA19A63}.Debug|x86.Build.0 = Debug|Win32
+		{29CFD7CC-1E79-4ABA-B99F-0E199FA19A63}.Release|x64.ActiveCfg = Release|x64
+		{29CFD7CC-1E79-4ABA-B99F-0E199FA19A63}.Release|x64.Build.0 = Release|x64
+		{29CFD7CC-1E79-4ABA-B99F-0E199FA19A63}.Release|x86.ActiveCfg = Release|Win32
+		{29CFD7CC-1E79-4ABA-B99F-0E199FA19A63}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ABFC60AB-0D7F-4445-913A-4B9E0CCA13AA}
+	EndGlobalSection
+EndGlobal
